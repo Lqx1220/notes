@@ -245,7 +245,7 @@ id INT(10),
 NAME VARCHAR(10),
 sex CHAR(2),
 enrollment_time DATE,
-foreign key (id) references user(id)/*表级约束*/
+foreign key (id) references user(idx)/*表级约束*/
 );
 ```
 

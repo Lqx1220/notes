@@ -45,15 +45,15 @@
 
 HttpServletResponse 具有一个方法 encodeRedirectURL()，可以完成对重定向 URL 的重写，即在重定向的路径后会自动添加 jsessionid。
 
-![image-20210811211439247](https://i.loli.net/2021/08/11/UIu6cOHQ5YzK3Li.png)
+<img src="https://i.loli.net/2021/08/11/UIu6cOHQ5YzK3Li.png" alt="image-20210811211439247" style="zoom: 67%;" />
 
-![image-20210811211449432](https://i.loli.net/2021/08/11/QR6Imd8wKvGVJ3p.png)
+<img src="https://i.loli.net/2021/08/11/QR6Imd8wKvGVJ3p.png" alt="image-20210811211449432" style="zoom: 67%;" />
 
 #### 超链接的 URL 重写
 
 HttpServletResponse 具有一个方法 encodeURL()，可以完成对类似对超链接这样的非重定向页面跳转的 URL 的重写，即在其路径后会自动添加 jsessionid。 
 
-![image-20210811211607461](https://i.loli.net/2021/08/11/aNpY5EFtTRxsk3L.png)
+<img src="https://i.loli.net/2021/08/11/aNpY5EFtTRxsk3L.png" alt="image-20210811211607461" style="zoom:67%;" />
 
 ### 域属性空间
 
